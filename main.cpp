@@ -28,7 +28,7 @@ int main() {
                     && find(results.begin(), results.end(), NG) == results.end()
                 ){
                     results.push_back(NG); results.push_back(G);   // Добавляем оба множителя в наш список(вектор)
-                    cout << G << "*" << NG << " ";                      // Выводим оба множителя на экран
+                    cout << G << "*" << NG << " ";                 // Выводим оба множителя на экран
                 }
             }
             
